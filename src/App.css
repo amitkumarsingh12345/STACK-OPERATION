@@ -1,0 +1,65 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    background-color: aliceblue;
+    color: blue;
+}
+.stacksizebox{
+    margin-top: auto;
+    display: inline-block;
+    margin-top: 10%;
+    border-top: none;
+}
+.stacksizebox div{
+    display: inline-block;
+    margin-top: auto;
+}
+.input{
+    padding: 5px;
+    border: none;
+    outline: 1px solid blue;
+    cursor: pointer;
+}
+.block{
+    border: 2px solid rgba(0, 0, 255, 0.931);
+    border-width: 2px 0px 0px 0px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: -7px;
+    overflow: hidden;
+}
+.operation,.operation div{
+    display: inline;
+} 
+.StOperation div {
+    display: inline-block;
+    font-size: 15px;
+}
+.StOperation div a {
+   outline: 1px solid blue;
+   padding: 1px 15px;
+   text-decoration: none;
+   display: inline-block; 
+} 
+.StOperation div a:hover {
+    background-color: blue;
+    color: white;
+}
+.StOperation {
+    display: none;
+}
+.stkdata span{
+   box-shadow: 0px 0px 5px gray;
+   border-radius: 5px;
+   padding: 1px 7px;
+}
+.stkdata{
+    display: inline-block;
+    box-shadow: 0px 0px 5px blue;
+    border-radius: 5px;
+    margin-top: 10px;
+}
